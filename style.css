@@ -1,0 +1,71 @@
+html {
+  scroll-behavior: smooth;
+}
+/*! NAVBAR */
+.navbar-brand img {
+  width: 15vw;
+  height: 10vh !important;
+}
+
+.navbar-light {
+  font-size: 1.2rem;
+  text-transform: uppercase !important;
+  font-weight: 500;
+  color: rgb(59, 59, 59);
+  transition: color 1s;
+}
+
+.navbar-light .nav-link:hover {
+  color: red;
+}
+
+/*! CAROUSEL */
+.carousel-item {
+  max-height: calc(100vh - 98px);
+  padding: 0px 2px;
+}
+.carousel-indicators button {
+  width: 4rem !important;
+  height: 0.5rem !important;
+  background-color: rgb(236, 210, 210) !important;
+}
+
+/* !CARDS */
+#products {
+  max-width: calc(100vw - 150px);
+}
+
+/* !MAIN WORK */
+
+/* !Cateories */
+.nav-item .nav-link.active {
+  color: white;
+  background-color: red;
+}
+.tab-content img {
+  /* max-width: calc(100vw - 150px); */
+}
+
+footer a {
+  font-size: 1.5rem;
+  padding-right: 10px;
+  transition: color 1s;
+}
+footer a:hover {
+  color: red;
+}
+.up-button {
+  position: fixed;
+  bottom: 2rem;
+  right: 1.5rem;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: red;
+  font-size: 1.4rem;
+  transition: background-color 1s;
+}
+
+.up-button:hover {
+  background-color: rgb(182, 9, 9);
+}
